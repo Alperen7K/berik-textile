@@ -1,16 +1,12 @@
-@font-face {
-    font-family: 'swiss';
-    src: url('/src/assets/fonts/Swis721_Hv_BT_Heavy.ttf') format('ttf');
+  .oswald{
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-optical-sizing: auto;
+    font-style: normal;
   }
 
-  .font-swiss{
-    font-family: "swiss",sans-serif;
-  }
-@font-face {
-    font-family: 'engravers';
-    src: url('/src/assets/fonts/ENGRGOTN.TTF') format('ttf');
-  }
-
-  .font-engravers{
-    font-family: "engravers",sans-serif;
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
   }
