@@ -5,7 +5,7 @@ import { X } from "../assets/X";
 import { Linkedin } from "../assets/Linkedin";
 export const Footer = () => {
  return (
-  <div className="w-full border-t-[1px] border-acik_gri border-solid shadow-xl">
+  <div className="w-full border-t-[1px] border-acik_gri border-solid shadow-xl roboto-light">
    <div className="w-[90vw] sm:w-[95vw] mx-auto py-3 flex flex-col gap-y-4 md:flex-row md:justify-between items-center ">
     <img src={logo} className="w-56 sm:w-64 object-contain " />
     <div className="flex flex-col items-center gap-2">

@@ -1,6 +1,6 @@
 import { Carousel, ConfigProvider } from "antd";
 import { Footer, Navbar } from "./components";
-import React, { useRef } from "react";
+import React from "react";
 import landing_1 from "./assets/landing-1.jpg";
 import landing_2 from "./assets/landing-2.jpg";
 import landing_3 from "./assets/landing-3.jpg";
@@ -39,7 +39,8 @@ export const Home = () => {
      </Carousel>
     </ConfigProvider>
    </div>
-   <div className=" min-h-screen py-8 sm:py-10  divide-y-2 divide-acik_gri/60">
+   4
+   <div className=" min-h-screen py-8 sm:py-10">
     <TextSection title={t("about.title")} desc={t("about.desc")} />
     <TextSection title={t("versatility.title")} desc={t("versatility.desc")} />
     <TextSection title={t("commitment.title")} desc={t("commitment.desc")} />
@@ -54,13 +55,17 @@ export const Home = () => {
 
 const TextSection = ({ title, desc }) => {
  return (
-  <div className="w-[90vw] sm:w-[90vw] md:w-[85vw] mx-auto space-y-2 sm:space-y-6 py-4 sm:py-14 relative overflow-hidden">
-   <h1 className="sm:text-[52px] text-[35px] font-bold m-0 p-0 font-engravers">
+  <div className="w-[90vw] sm:w-[90vw] md:w-[60vw] mx-auto space-y-1 py-4 relative overflow-hidden">
+   <h1
+    style={{ fontFamily: "" }}
+    className="sm:text-[32px] text-[35px] text-center  oswald m-0 p-0 "
+   >
     {title}
    </h1>
-   <p className="font-swiss lg:text-[20px] text-justify text-koyu_gri">
+   <p className="roboto-light  lg:text-[20px] text-center text-koyu_gri">
     {desc}
    </p>
   </div>
  );
 };
+  

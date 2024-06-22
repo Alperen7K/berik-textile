@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
- content: ["./src/**/*.{html,js,jsx}"],
+ content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
  theme: {
   colors: {
    kırmızı: "#cf0819",
