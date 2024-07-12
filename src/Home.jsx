@@ -39,7 +39,6 @@ export const Home = () => {
      </Carousel>
     </ConfigProvider>
    </div>
-   4
    <div className=" min-h-screen py-8 sm:py-10">
     <TextSection title={t("about.title")} desc={t("about.desc")} />
     <TextSection title={t("versatility.title")} desc={t("versatility.desc")} />
